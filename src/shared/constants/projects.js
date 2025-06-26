@@ -1,11 +1,13 @@
 export const ProjectCategory = {
+  LARKLABS: 'larklabs',
   SOFTWARE: 'software',
-  MARKETING: 'marketing',
-  BUSINESS: 'business',
+  SCSS: 'scss',
+  PLATFORM: 'platform',
 };
 
 export const ProjectCategoryCopy = {
+  [ProjectCategory.LARKLABS]: 'LarkLabs',
   [ProjectCategory.SOFTWARE]: 'Software',
-  [ProjectCategory.MARKETING]: 'Marketing',
-  [ProjectCategory.BUSINESS]: 'Business',
+  [ProjectCategory.SCSS]: 'SCSS',
+  [ProjectCategory.PLATFORM]: 'Platform',
 };
