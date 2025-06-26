@@ -7,7 +7,7 @@ import { Header, BoardName } from './Styles';
 const ProjectBoardHeader = () => (
   <Header>
     <BoardName>Kanban board</BoardName>
-    <a href="https://github.com/sunidhipathak639/team-tasker-FEhttps://github.com/sunidhipathak639/team-tasker-FE" target="_blank" rel="noreferrer noopener">
+    <a href="https://github.com/sunidhipathak639/team-tasker-FE" target="_blank" rel="noreferrer noopener">
       <Button icon="github">Github Repo</Button>
     </a>
   </Header>
