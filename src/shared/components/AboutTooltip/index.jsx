@@ -23,12 +23,12 @@ const AboutTooltip = tooltipProps => (
 
         <FeedbackParagraph>
           {'Read more on my website or reach out via '}
-          <a href="mailto:ivor@codetree.co">
-            <strong>ivor@codetree.co</strong>
+          <a href="mailto:sunidhi@pathak.com">
+            <strong>sunidhi@pathak.com</strong>
           </a>
         </FeedbackParagraph>
 
-        <a href="https://getivor.com/" target="_blank" rel="noreferrer noopener">
+        <a href="https://my-portfolio-phi-lime.vercel.app/" target="_blank" rel="noreferrer noopener">
           <Button variant="primary">Visit Website</Button>
         </a>
 
