@@ -49,7 +49,7 @@ export const Item = styled.div`
   height: 42px;
   line-height: 42px;
   padding-left: 64px;
-  color: #deebff;
+  color: #17004A;
   transition: color 0.1s;
   ${mixin.clickable}
   &:hover {

@@ -4,29 +4,30 @@ import Color from 'color';
 import { IssueType, IssueStatus, IssuePriority } from 'shared/constants/issues';
 
 export const color = {
-  primary: '#0052cc', // Blue
-  success: '#0B875B', // green
-  danger: '#E13C3C', // red
-  warning: '#F89C1C', // orange
-  secondary: '#F4F5F7', // light grey
+  primary: '#5D33F6',         // violet
+  success: '#0B875B',
+  danger: '#E13C3C',
+  warning: '#F89C1C',
+  secondary: '#F4F1FB',       // light violet background
 
-  textDarkest: '#172b4d',
-  textDark: '#42526E',
-  textMedium: '#5E6C84',
-  textLight: '#8993a4',
-  textLink: '#0052cc',
+  textDarkest: '#5D33F6',     // main violet text
+  textDark: '#5D33F6',
+  textMedium: '#5D33F6',
+  textLight: '#5D33F6',
+  textLink: '#5D33F6',
 
-  backgroundDarkPrimary: '#0747A6',
-  backgroundMedium: '#dfe1e6',
-  backgroundLight: '#ebecf0',
-  backgroundLightest: '#F4F5F7',
-  backgroundLightPrimary: '#D2E5FE',
+  backgroundDarkPrimary: '#FFFFFF',  // dark violet background
+  backgroundMedium: '#F4F1FB',       // light violet
+  backgroundLight: '#F4F1FB',
+  backgroundLightest: '#F4F1FB',
+  backgroundLightPrimary: '#F4F1FB',
   backgroundLightSuccess: '#E4FCEF',
 
   borderLightest: '#dfe1e6',
   borderLight: '#C1C7D0',
-  borderInputFocus: '#4c9aff',
+  borderInputFocus: '#5D33F6', // same violet for focus
 };
+
 
 export const issueTypeColors = {
   [IssueType.TASK]: '#4FADE6', // blue
@@ -50,11 +51,12 @@ export const issueStatusColors = {
 };
 
 export const issueStatusBackgroundColors = {
-  [IssueStatus.BACKLOG]: color.backgroundMedium,
-  [IssueStatus.INPROGRESS]: color.primary,
-  [IssueStatus.SELECTED]: color.backgroundMedium,
-  [IssueStatus.DONE]: color.success,
+  [IssueStatus.BACKLOG]: '#F4F1FB',
+  [IssueStatus.INPROGRESS]: '#5D33F6',
+  [IssueStatus.SELECTED]: '#F4F1FB',
+  [IssueStatus.DONE]: '#0B875B',
 };
+
 
 export const sizes = {
   appNavBarLeftWidth: 64,
