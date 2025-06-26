@@ -1,93 +1,45 @@
 {
-  "$schema": "https://json.schemastore.org/eslintrc.json",
-  "env": {
-    "browser": false,
-    "es2021": true,
-    "node": true
-  },
-  "extends": [
-    "plugin:react/recommended",
-    "plugin:prettier/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:@next/next/recommended"
-  ],
-  "plugins": ["react", "unused-imports", "import", "@typescript-eslint", "jsx-a11y", "prettier"],
-  "parser": "@typescript-eslint/parser",
+  "parser": "babel-eslint",
   "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8,
     "ecmaFeatures": {
       "jsx": true
-    },
-    "ecmaVersion": 12,
-    "sourceType": "module"
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
     }
   },
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "plugins": ["react-hooks"],
   "rules": {
-    "no-console": "warn",
-    "react/prop-types": "off",
-    "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off",
-    "react-hooks/exhaustive-deps": "off",
-    "jsx-a11y/click-events-have-key-events": "warn",
-    "jsx-a11y/interactive-supports-focus": "warn",
-    "prettier/prettier": "warn",
-    "no-unused-vars": "off",
-    "unused-imports/no-unused-vars": "off",
-    "unused-imports/no-unused-imports": "warn",
-    "@typescript-eslint/no-unused-vars": [
-      "warn",
-      {
-        "args": "after-used",
-        "ignoreRestSiblings": false,
-        "argsIgnorePattern": "^_.*?$"
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "radix": 0,
+    "no-restricted-syntax": 0,
+    "no-await-in-loop": 0,
+    "no-console": 0,
+    "consistent-return": 0,
+    "no-param-reassign": [2, { "props": false }],
+    "no-return-assign": [2, "except-parens"],
+    "no-use-before-define": 0,
+    "import/prefer-default-export": 0,
+    "import/no-cycle": 0,
+    "react/no-array-index-key": 0,
+    "react/forbid-prop-types": 0,
+    "react/prop-types": [2, { "skipUndeclared": true }],
+    "react/jsx-fragments": [2, "element"],
+    "react/state-in-constructor": 0,
+    "react/jsx-props-no-spreading": 0,
+    "jsx-a11y/click-events-have-key-events": 0
+  },
+  "settings": {
+    // Allows us to lint absolute imports within codebase
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src/"]
       }
-    ],
-    "import/order": [
-      "warn",
-      {
-        "groups": [
-          "type",
-          "builtin",
-          "object",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index"
-        ],
-        "pathGroups": [
-          {
-            "pattern": "~/**",
-            "group": "external",
-            "position": "after"
-          }
-        ],
-        "newlines-between": "always"
-      }
-    ],
-    "react/self-closing-comp": "warn",
-    "react/jsx-sort-props": [
-      "warn",
-      {
-        "callbacksLast": true,
-        "shorthandFirst": true,
-        "noSortAlphabetically": false,
-        "reservedFirst": true
-      }
-    ],
-    "padding-line-between-statements": [
-      "warn",
-      {"blankLine": "always", "prev": "*", "next": "return"},
-      {"blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
-      {
-        "blankLine": "any",
-        "prev": ["const", "let", "var"],
-        "next": ["const", "let", "var"]
-      }
-    ]
+    }
   }
 }
