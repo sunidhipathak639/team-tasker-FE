@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-import { color } from 'shared/utils/styles';
-import Icon from 'shared/components/Icon';
+import { color } from 'shared/utils/styles.js';
+import {Icon} from 'shared/components/index.js';
 
 import { StyledButton, StyledSpinner, Text } from './Styles';
 

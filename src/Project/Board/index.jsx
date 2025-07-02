@@ -2,8 +2,8 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { Route, useRouteMatch, useHistory } from 'react-router-dom';
 
-import useMergeState from 'shared/hooks/mergeState';
-import { Breadcrumbs, Modal } from 'shared/components';
+import useMergeState from 'shared/hooks/mergeState.js';
+import { Breadcrumbs, Modal } from 'shared/components/index.js';
 
 import Header from './Header';
 import Filters from './Filters';

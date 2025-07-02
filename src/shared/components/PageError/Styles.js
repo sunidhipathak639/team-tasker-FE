@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-import { color, font, mixin } from 'shared/utils/styles';
-import { Icon } from 'shared/components';
+import { color, font, mixin } from 'shared/utils/styles.js';
+import { Icon } from 'shared/components/index.js';
 
 import imageBackground from './assets/background-forest.jpg';
 

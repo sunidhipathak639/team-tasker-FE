@@ -2,8 +2,8 @@ import React, { useState, useRef } from 'react';
 import PropTypes from 'prop-types';
 
 import { formatDate, formatDateTime } from 'shared/utils/dateTime';
-import useOnOutsideClick from 'shared/hooks/onOutsideClick';
-import Input from 'shared/components/Input';
+import useOnOutsideClick from 'shared/hooks/onOutsideClick.js';
+import Input from 'shared/components/index.js';
 
 import DateSection from './DateSection';
 import TimeSection from './TimeSection';

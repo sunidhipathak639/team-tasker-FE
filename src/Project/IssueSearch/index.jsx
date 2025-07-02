@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { get } from 'lodash';
 
-import useApi from 'shared/hooks/api';
+import useApi from 'shared/hooks/api/index.js';
 import { sortByNewest } from 'shared/utils/javascript';
-import { IssueTypeIcon } from 'shared/components';
+import { IssueTypeIcon } from 'shared/components/index.js';
 
 import NoResultsSVG from './NoResultsSvg';
 import {

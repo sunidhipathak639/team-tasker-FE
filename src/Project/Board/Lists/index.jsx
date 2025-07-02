@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { DragDropContext } from 'react-beautiful-dnd';
 
 import useCurrentUser from 'shared/hooks/currentUser';
-import api from 'shared/utils/api';
+import api from 'shared/utils/api.js';
 import { moveItemWithinArray, insertItemIntoArray } from 'shared/utils/javascript';
-import { IssueStatus } from 'shared/constants/issues';
+import { IssueStatus } from 'shared/constants/issues.js';
 
 import List from './List';
 import { Lists } from './Styles';

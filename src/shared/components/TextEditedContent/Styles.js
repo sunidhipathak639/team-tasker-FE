@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { font } from 'shared/utils/styles';
+import { font } from 'shared/utils/styles.js';
 
 export const Content = styled.div`
   padding: 0 !important;

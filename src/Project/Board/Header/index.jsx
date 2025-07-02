@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button } from 'shared/components';
+import { Button } from 'shared/components/index.js';
 
 import { Header, BoardName } from './Styles';
 

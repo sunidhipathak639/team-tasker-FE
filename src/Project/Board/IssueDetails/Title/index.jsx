@@ -1,7 +1,7 @@
 import React, { Fragment, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 
-import { KeyCodes } from 'shared/constants/keyCodes';
+import { KeyCodes } from 'shared/constants/keyCodes.js';
 import { is, generateErrors } from 'shared/utils/validation';
 
 import { TitleTextarea, ErrorText } from './Styles';

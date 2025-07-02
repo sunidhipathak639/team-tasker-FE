@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { color, font } from 'shared/utils/styles';
+import { color, font } from 'shared/utils/styles.js';
 
 export const Container = styled.div`
   color: ${color.textMedium};

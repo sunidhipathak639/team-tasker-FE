@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Redirect, useRouteMatch, useHistory } from 'react-router-dom';
 
-import useApi from 'shared/hooks/api';
+import useApi from 'shared/hooks/api/index.js';
 import { updateArrayItemById } from 'shared/utils/javascript';
 import { createQueryParamModalHelpers } from 'shared/utils/queryParamModal';
-import { PageLoader, PageError, Modal } from 'shared/components';
+import { PageLoader, PageError, Modal } from 'shared/components/index.js';
 
 import NavbarLeft from './NavbarLeft';
 import Sidebar from './Sidebar';

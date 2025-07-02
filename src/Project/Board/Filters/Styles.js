@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-import { color, font, mixin } from 'shared/utils/styles';
-import { InputDebounced, Avatar, Button } from 'shared/components';
+import { color, font, mixin } from 'shared/utils/styles.js';
+import { InputDebounced, Avatar, Button } from 'shared/components/index.js';
 
 export const Filters = styled.div`
   display: flex;

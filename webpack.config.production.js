@@ -1,13 +1,16 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const TerserPlugin = require('terser-webpack-plugin');
+import path from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import TerserPlugin from 'terser-webpack-plugin';
 
-module.exports = {
+// Get the current directory from import.meta.url
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
+
+export default {
   mode: 'production',
   entry: path.join(__dirname, 'src/index.jsx'),
   output: {
-    filename: '[name].[contenthash].js', // Added content hash for cache busting
+    filename: '[name].[contenthash].js', // Content hash for cache busting
     path: path.resolve(__dirname, 'build'),
     publicPath: '/',
   },
@@ -35,7 +38,7 @@ module.exports = {
   },
   resolve: {
     modules: [path.join(__dirname, 'src'), 'node_modules'],
-    extensions: ['.js', '.jsx'],
+      extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx'],
   },
   optimization: {
     minimize: true,

@@ -1,5 +1,5 @@
-import useQuery from './query';
-import useMutation from './mutation';
+import useQuery from './query.js';
+import useMutation from './mutation.js';
 
 /* eslint-disable react-hooks/rules-of-hooks */
 export default {

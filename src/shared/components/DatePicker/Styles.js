@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import { color, font, mixin, zIndexValues } from 'shared/utils/styles';
+import { color, font, mixin, zIndexValues } from 'shared/utils/styles.js';
 
 export const StyledDatePicker = styled.div`
   position: relative;

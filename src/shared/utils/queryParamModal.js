@@ -1,5 +1,5 @@
 import history from 'browserHistory';
-import { queryStringToObject, addToQueryString, omitFromQueryString } from 'shared/utils/url';
+import { queryStringToObject, addToQueryString, omitFromQueryString } from 'shared/utils/url.js';
 
 const open = param =>
   history.push({

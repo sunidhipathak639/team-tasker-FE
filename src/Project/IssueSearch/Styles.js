@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-import { color, font, mixin } from 'shared/utils/styles';
-import { InputDebounced, Spinner, Icon } from 'shared/components';
+import { color, font, mixin } from 'shared/utils/styles.js';
+import { InputDebounced, Spinner, Icon } from 'shared/components/index.js';
 
 export const IssueSearch = styled.div`
   padding: 25px 35px 60px;

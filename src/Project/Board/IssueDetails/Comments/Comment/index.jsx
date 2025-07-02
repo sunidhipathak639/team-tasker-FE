@@ -1,10 +1,10 @@
 import React, { Fragment, useState } from 'react';
 import PropTypes from 'prop-types';
 
-import api from 'shared/utils/api';
-import toast from 'shared/utils/toast';
+import api from 'shared/utils/api.js';
+import toast from 'shared/utils/toast.js';
 import { formatDateTimeConversational } from 'shared/utils/dateTime';
-import { ConfirmModal } from 'shared/components';
+import { ConfirmModal } from 'shared/components/index.js';
 
 import BodyForm from '../BodyForm';
 import {

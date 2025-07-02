@@ -7,11 +7,11 @@ import {
   IssuePriority,
   IssueTypeCopy,
   IssuePriorityCopy,
-} from 'shared/constants/issues';
-import toast from 'shared/utils/toast';
-import useApi from 'shared/hooks/api';
+} from 'shared/constants/issues.js';
+import toast from 'shared/utils/toast.js';
+import useApi from 'shared/hooks/api/index.js';
 import useCurrentUser from 'shared/hooks/currentUser';
-import { Form, IssueTypeIcon, Icon, Avatar, IssuePriorityIcon } from 'shared/components';
+import { Form, IssueTypeIcon, Icon, Avatar, IssuePriorityIcon } from 'shared/components/index.js';
 
 import {
   FormHeading,

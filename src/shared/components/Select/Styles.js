@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
-import { color, font, mixin, zIndexValues } from 'shared/utils/styles';
-import Icon from 'shared/components/Icon';
+import { color, font, mixin, zIndexValues } from 'shared/utils/styles.js';
+import {Icon} from 'shared/components/index.js';
 
 export const StyledSelect = styled.div`
   position: relative;

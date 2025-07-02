@@ -2,7 +2,7 @@ import React, { Fragment, useState, useRef, useLayoutEffect } from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
-import useOnOutsideClick from 'shared/hooks/onOutsideClick';
+import useOnOutsideClick from 'shared/hooks/onOutsideClick.js';
 
 import { StyledTooltip } from './Styles';
 

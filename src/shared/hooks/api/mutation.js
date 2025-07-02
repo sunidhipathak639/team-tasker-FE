@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 
-import api from 'shared/utils/api';
-import useMergeState from 'shared/hooks/mergeState';
+import api from 'shared/utils/api.js';
+import useMergeState from 'shared/hooks/mergeState.js';
 
 const useMutation = (method, url) => {
   const [state, mergeState] = useMergeState({

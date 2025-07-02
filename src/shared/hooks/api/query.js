@@ -1,9 +1,9 @@
 import { useRef, useCallback, useEffect } from 'react';
 import { isEqual } from 'lodash';
 
-import api from 'shared/utils/api';
-import useMergeState from 'shared/hooks/mergeState';
-import useDeepCompareMemoize from 'shared/hooks/deepCompareMemoize';
+import api from 'shared/utils/api.js';
+import useMergeState from 'shared/hooks/mergeState.js';
+import useDeepCompareMemoize from 'shared/hooks/deepCompareMemoize.js';
 
 const useQuery = (url, propsVariables = {}, options = {}) => {
   const { lazy = false, cachePolicy = 'cache-first' } = options;

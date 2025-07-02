@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useCallback } from 'react';
 import PropTypes from 'prop-types';
 import { debounce } from 'lodash';
 
-import { Input } from 'shared/components';
+import { Input } from 'shared/components/index.js';
 
 const propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),

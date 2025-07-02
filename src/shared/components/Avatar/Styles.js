@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { font, mixin } from 'shared/utils/styles';
+import { font, mixin } from 'shared/utils/styles.js';
 
 export const Image = styled.div`
   display: inline-block;

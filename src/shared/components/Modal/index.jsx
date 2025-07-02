@@ -2,8 +2,8 @@ import React, { Fragment, useState, useRef, useEffect, useCallback } from 'react
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
-import useOnOutsideClick from 'shared/hooks/onOutsideClick';
-import useOnEscapeKeyDown from 'shared/hooks/onEscapeKeyDown';
+import useOnOutsideClick from 'shared/hooks/onOutsideClick.js';
+import useOnEscapeKeyDown from 'shared/hooks/onEscapeKeyDown.js';
 
 import { ScrollOverlay, ClickableOverlay, StyledModal, CloseIcon } from './Styles';
 

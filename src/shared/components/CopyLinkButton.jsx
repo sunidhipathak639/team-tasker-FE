@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { copyToClipboard } from 'shared/utils/browser';
-import { Button } from 'shared/components';
+import { Button } from 'shared/components/index.js';
 
 const CopyLinkButton = ({ ...buttonProps }) => {
   const [isLinkCopied, setLinkCopied] = useState(false);

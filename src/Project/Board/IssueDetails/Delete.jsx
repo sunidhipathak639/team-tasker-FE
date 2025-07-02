@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import api from 'shared/utils/api';
-import toast from 'shared/utils/toast';
-import { Button, ConfirmModal } from 'shared/components';
+import api from 'shared/utils/api.js';
+import toast from 'shared/utils/toast.js';
+import { Button, ConfirmModal } from 'shared/components/index.js';
 
 const propTypes = {
   issue: PropTypes.object.isRequired,

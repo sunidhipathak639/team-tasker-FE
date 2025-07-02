@@ -1,9 +1,9 @@
 import React, { useState, useRef } from 'react';
 import PropTypes from 'prop-types';
 
-import useOnOutsideClick from 'shared/hooks/onOutsideClick';
-import { KeyCodes } from 'shared/constants/keyCodes';
-import Icon from 'shared/components/Icon';
+import useOnOutsideClick from 'shared/hooks/onOutsideClick.js';
+import { KeyCodes } from 'shared/constants/keyCodes.js';
+import {Icon} from 'shared/components/index.js';
 
 import Dropdown from './Dropdown';
 import {

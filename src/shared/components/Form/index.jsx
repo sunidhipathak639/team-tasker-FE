@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Formik, Form as FormikForm, Field as FormikField } from 'formik';
 import { get, mapValues } from 'lodash';
 
-import toast from 'shared/utils/toast';
+import toast from 'shared/utils/toast.js';
 import { is, generateErrors } from 'shared/utils/validation';
 
 import Field from './Field';

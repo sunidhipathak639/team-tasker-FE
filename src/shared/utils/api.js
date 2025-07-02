@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 import history from 'browserHistory';
-import toast from 'shared/utils/toast';
-import { objectToQueryString } from 'shared/utils/url';
-import { getStoredAuthToken, removeStoredAuthToken } from 'shared/utils/authToken';
+import toast from 'shared/utils/toast.js';
+import { objectToQueryString } from 'shared/utils/url.js';
+import { getStoredAuthToken, removeStoredAuthToken } from 'shared/utils/authToken.js';
 
 const defaults = {
   baseURL: process.env.API_URL || 'http://localhost:3000',

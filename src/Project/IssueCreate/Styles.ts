@@ -12,7 +12,11 @@ export const FormHeading = styled.div`
   ${font.size(21)}
 `;
 
-export const SelectItem = styled.div`
+interface SelectItemProps {
+  withBottomMargin?: boolean;
+}
+
+export const SelectItem = styled.div<SelectItemProps>`
   display: flex;
   align-items: center;
   margin-right: 15px;

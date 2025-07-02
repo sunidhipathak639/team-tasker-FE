@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Button from 'shared/components/Button';
-import Tooltip from 'shared/components/Tooltip';
+import Button from 'shared/components/index.js';
+import Tooltip from 'shared/components/index.js';
 
 import feedbackImage from './assets/feedback.png';
 import { FeedbackDropdown, FeedbackImageCont, FeedbackImage, FeedbackParagraph } from './Styles';

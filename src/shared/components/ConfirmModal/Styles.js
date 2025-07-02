@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import { font } from 'shared/utils/styles';
-import Modal from 'shared/components/Modal';
-import Button from 'shared/components/Button';
+import { font } from 'shared/utils/styles.js';
+import {Modal} from 'shared/components/index.js';
+import {Button} from 'shared/components/index.js';
 
 export const StyledConfirmModal = styled(Modal)`
   padding: 35px 40px 40px;

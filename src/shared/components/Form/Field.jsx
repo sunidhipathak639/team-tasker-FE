@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { uniqueId } from 'lodash';
 
-import Input from 'shared/components/Input';
-import Select from 'shared/components/Select';
-import Textarea from 'shared/components/Textarea';
-import TextEditor from 'shared/components/TextEditor';
-import DatePicker from 'shared/components/DatePicker';
+import Input from 'shared/components/index.js';
+import Select from 'shared/components/index.js';
+import Textarea from 'shared/components/index.js';
+import TextEditor from 'shared/components/index.js';
+import DatePicker from 'shared/components/index.js';
 
 import { StyledField, FieldLabel, FieldTip, FieldError } from './Styles';
 

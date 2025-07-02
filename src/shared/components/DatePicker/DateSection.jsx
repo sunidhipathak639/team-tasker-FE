@@ -4,7 +4,7 @@ import moment from 'moment';
 import { times, range } from 'lodash';
 
 import { formatDate, formatDateTimeForAPI } from 'shared/utils/dateTime';
-import Icon from 'shared/components/Icon';
+import {Icon} from 'shared/components/index.js';
 
 import {
   DateSection,

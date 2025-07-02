@@ -1,9 +1,9 @@
 import React, { Fragment, useState } from 'react';
 import PropTypes from 'prop-types';
 
-import api from 'shared/utils/api';
+import api from 'shared/utils/api.js';
 import useCurrentUser from 'shared/hooks/currentUser';
-import toast from 'shared/utils/toast';
+import toast from 'shared/utils/toast.js';
 
 import BodyForm from '../BodyForm';
 import ProTip from './ProTip';

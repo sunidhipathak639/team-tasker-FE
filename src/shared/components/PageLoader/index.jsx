@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Spinner from 'shared/components/Spinner';
+import {Spinner} from 'shared/components/index.js';
 
 import StyledPageLoader from './Styles';
 

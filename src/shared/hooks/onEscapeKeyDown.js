@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import { KeyCodes } from 'shared/constants/keyCodes';
+import { KeyCodes } from 'shared/constants/keyCodes.js';
 
 const useOnEscapeKeyDown = (isListening, onEscapeKeyDown) => {
   useEffect(() => {
