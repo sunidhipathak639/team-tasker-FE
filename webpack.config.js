@@ -10,7 +10,7 @@ export default {
   mode: 'production',
   entry: path.join(__dirname, 'src/index.jsx'),
   output: {
-    filename: '[name].[contenthash].js', // Content hash for cache busting
+    filename: 'main.[contenthash].js',
     path: path.resolve(__dirname, 'build'),
     publicPath: '/',
   },
