@@ -60,7 +60,7 @@
     "react-content-loader": "^7.0.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
-    "react-textarea-autosize": "^7.1.2",
+    "react-textarea-autosize": "^8.5.9",
     "react-transition-group": "^4.4.0",
     "regenerator-runtime": "^0.13.9",
     "styled-components": "^5.3.6",
